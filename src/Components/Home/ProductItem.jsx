@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import Loader from '../Loader/Loader';
 import './Product.modules.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { store } from '../../Store';
 import { addToCart } from '../../Store/Cart';
 
 const ProductItem = () => {
