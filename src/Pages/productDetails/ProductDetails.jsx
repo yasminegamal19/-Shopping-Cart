@@ -39,21 +39,6 @@ const ProductDetails = () => {
       .then((res) => setDetails(res.data))
       .catch((err) => console.log(err));
   }, [id]);
-
-  const renderStars = (rating) => {
-    const stars = [];
-
-    for (let i = 1; i <= 5; i++) {
-      if (i <= rating) {
-        stars.push(<i key={i} className="bi bi-star-fill text-warning"></i>);
-      } else {
-        stars.push(<i key={i} className="bi bi-star text-black-50"></i>);
-      }
-    }
-
-    return stars;
-  };
-
   return (
     <>
       {details && (
