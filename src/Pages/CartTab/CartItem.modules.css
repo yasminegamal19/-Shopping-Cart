@@ -1,0 +1,26 @@
+.cart-tab{
+    background-color: #eeeef1;
+}
+.cart-tab h3{
+    color: gray;
+    font-size: 22px;
+}
+.cart-tab h4{
+    color: #f3798f;
+}
+.cart-item p{
+    font-size: 19px;
+        font-weight: 800;
+}
+
+.cart-item .btn {
+    border-radius: 50%;
+    background-color: #f3798f;
+    color: white;
+}
+
+.cart-item span {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 10px;
+}

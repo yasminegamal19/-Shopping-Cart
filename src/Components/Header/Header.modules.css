@@ -1,0 +1,31 @@
+.header{
+    background-color: #E4E4E6;
+}
+.header .logo {
+    text-decoration: none;
+    color: #f3798f;
+    font-size: 32px;
+}
+
+.header .cart-icon {
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+}
+
+.header img {
+    height: 25px;
+    width: auto;
+    margin: 13px;
+}
+.header span{
+position: absolute;
+    border-radius: 50%;
+    display: block;
+    height: 23px;
+    left: -6px;
+    width: 23px;
+    text-align: center;
+}
